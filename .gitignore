@@ -3,9 +3,9 @@
 .Rapp.history
 
 # Data files
-.Rds
-.xlsx
-.csv
+*.Rds
+*.xlsx
+*.csv
 bd_source/
 
 # Session Data files
