@@ -6,6 +6,9 @@
 /*.Rds
 /*.xlsx
 /*.csv
+.Rds
+.xlsx
+.csv
 bd_source/
 output/
 
@@ -54,7 +57,3 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
-
-
-
-
