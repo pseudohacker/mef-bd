@@ -6,6 +6,7 @@
 .Rds
 .xlsx
 .csv
+bd_source/
 
 # Session Data files
 .RData
