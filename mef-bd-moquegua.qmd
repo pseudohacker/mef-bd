@@ -1,0 +1,25 @@
+---
+title: "mef-bd-moquegua"
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+```{r, echo=FALSE}
+#| label: load_data
+pacman::p_load(dplyr,
+               tidyr,
+               ggplot2,
+               gt,
+               readr,
+               readxl,
+               purrr)
+dt <- readRDS(file = "bd_source/moquegua2022-2024.Rds")
+```
+
+```{r, echo=FALSE}
+#| label: prepare_data
+write.csv(dt, file = "moquegua2022-2024.csv", sep = ",", row.names = F, col.names = T)
+table(dt$)
+```
