@@ -7,6 +7,7 @@
 /*.xlsx
 /*.csv
 bd_source/
+output/
 
 # Session Data files
 .RData
